@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    
+}
+section{
+ width: 100%; background-color: cyan;
+ display: flex;
+ color: rgba(5, 161, 57, 0.514);
+ /* flex-wrap: wrap; */
+ /* justify-content: center; */
+ justify-content: space-around;
+ /* align-items: flex-start; */
+ /* by using align items you can move your divs */
+ align-items: center;
+ 
+}
+section div{
+    width: 30%;
+    padding: 20px;
+    border: 1px solid red;  
+    
+}
+.one{
+    /* flex: 1; */
+    background-color: rgba(179, 137, 23, 0.075);
+}
+.two{
+    /* flex: 1; */
+    background-color: rgb(148, 148, 30);
+}
+.three{
+    /* flex: 1; */
+    background-color:green;
+}

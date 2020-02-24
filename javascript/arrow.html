@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>  Arrow function </title>
+<style>
+
+</style>
+</head>
+<body>
+     <p id="demo"></p>
+    <div id="demo1"></div>
+    <div id="demo2"></div>
+    <script>
+        // without arrow function
+        var value,value1, value2;
+
+        value=function(){
+            return "this is my without arrow function";
+        }
+
+      // with arrow function
+      value1=()=>{
+          return "this is my with arrow function";
+      }
+      // arrow function with parameters
+
+      value2=(val)=>{
+          return  "parameter value is " + val;
+      }
+
+document.getElementById("demo").innerHTML=value();
+document.getElementById("demo1").innerHTML=value1();
+document.getElementById("demo2").innerHTML=value2("my parameter");
+    </script>
+
+</body>
+</html>

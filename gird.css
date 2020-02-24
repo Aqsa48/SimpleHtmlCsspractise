@@ -1,0 +1,25 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+main{
+    width: 75%;
+    margin: 50px auto;
+    border: 1px solid gray;
+    color: white;
+    display: grid;
+    grid-template-rows: 60px 100px 200px 60px;
+    /* grid-template-columns: repeat(3 ,150px)100px; */
+    /* to adjust  */
+    grid-template-columns: repeat(3,1fr)150px;
+    grid-gap: 20px;    
+}.one{ background: red;
+grid-column: 1/-1; }
+.two{ background: yellow ; }
+.three{ background:blue  ; }
+.four{ background:purple  ; }
+.five{ background:gray    ; grid-row: 2/4; grid-column: 4/5}
+.six{ background:rgb(218, 100, 100)  ; 
+grid-column: 1/4 ;
+}
+.seven{ background:brown ;
+    grid-column: 1/-1;
+
+}
